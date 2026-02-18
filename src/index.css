@@ -1,1 +1,18 @@
 @import "tailwindcss";
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-up { animation: fadeUp 700ms ease-out both; }
+.animate-fade-in { animation: fadeIn 700ms ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up, .animate-fade-in { animation: none !important; }
+}
+html { scroll-behavior: smooth; }

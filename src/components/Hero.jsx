@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="absolute -top-32 left-1/2 h-72 w-xl -translate-x-1/2 rounded-full bg-sky-500 blur-3xl" />
       </div>
 
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
+      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:py-24 ">
         <div>
           <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">
             ⏱ 20–45 min • ⭐ 4.8+ Reviews • 🧽 Interior + Exterior
@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+        <div className="animate-fade-up rounded-2xl border border-white/10 bg-white/5 p-6">
           <h2 className="text-lg font-bold">Today’s Specials</h2>
           <p className="mt-1 text-sm text-slate-300">Add-ons customers love.</p>
 
