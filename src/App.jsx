@@ -7,6 +7,7 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsapp";
+import LocationMap from "./components/LocationMap";
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Gallery />
         <Testimonials />
         <Contact />
+        <LocationMap/>
       </main>
       <Footer />
        <FloatingWhatsApp />

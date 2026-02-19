@@ -8,7 +8,7 @@ export default function Hero3D() {
     <section id="top" className="relative overflow-hidden">
       {/* background glow */}
       <div className="pointer-events-none absolute inset-0 opacity-30">
-        <div className="absolute -top-40 left-1/2 h-80 w-[42rem] -translate-x-1/2 rounded-full bg-sky-500 blur-3xl" />
+        <div className="absolute -top-40 left-1/2 h-80 w-2xl -translate-x-1/2 rounded-full bg-sky-500 blur-3xl" />
         <div className="absolute -bottom-40 right-10 h-72 w-72 rounded-full bg-emerald-500 blur-3xl" />
       </div>
 
@@ -43,7 +43,7 @@ export default function Hero3D() {
           </div>
 
           <div className="mt-6 text-sm text-slate-400">
-            Open: Mon–Sun • 08:00–18:00 • Call: 0XX XXX XXXX
+            Open: Mon–Sun • 08:00–18:00 • Call: 083 687 0330
           </div>
         </div>
 

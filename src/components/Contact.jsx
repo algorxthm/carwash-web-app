@@ -13,15 +13,15 @@ export default function Contact() {
         <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
           <div className="font-semibold">Contact Details</div>
           <div className="mt-3 space-y-2 text-sm text-slate-300">
-            <div>📍 Address: Add your location</div>
-            <div>📞 Phone: 0XX XXX XXXX</div>
-            <div>🟢 WhatsApp: 27XXXXXXXXX</div>
+            <div>📍 Address: 3 Ridge Road, Glen Austin, Midrand</div>
+            <div>📞 Phone: 083 687 0330</div>
+            <div>🟢 WhatsApp: 27 83 687 0330</div>
             <div>🕒 Hours: Mon–Sun 08:00–18:00</div>
           </div>
 
           <a
             className="mt-5 inline-flex w-full justify-center rounded-xl bg-sky-400 px-5 py-3 text-sm font-bold text-slate-950 hover:bg-sky-300"
-            href="https://wa.me/27XXXXXXXXX"
+            href="https://wa.me/27836870330"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,14 +56,6 @@ export default function Contact() {
             </button>
           </form>
         </div>
-      </div>
-
-      <div className="mt-4 rounded-2xl border border-white/10 bg-white/5 p-6">
-        <div className="font-semibold">Find Us</div>
-        <p className="mt-2 text-sm text-slate-300">
-          Later we can embed Google Maps. For now this is a placeholder.
-        </p>
-        <div className="mt-4 aspect-16/6 rounded-2xl border border-dashed border-white/10 bg-slate-950/40" />
       </div>
     </section>
   );
