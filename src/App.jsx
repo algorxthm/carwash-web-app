@@ -6,7 +6,7 @@ import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import FloatingWhatsApp from "./components/FloatingWhatsapp";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 import LocationMap from "./components/LocationMap";
 
 
@@ -23,8 +23,9 @@ export default function App() {
         <Contact />
         <LocationMap/>
       </main>
+      <WhatsAppFloat />
       <Footer />
-       <FloatingWhatsApp />
+      
     </div>
   );
 }
