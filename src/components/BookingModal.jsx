@@ -1,7 +1,7 @@
 export default function BookingModal({ open, onClose, packageName = "" }) {
   if (!open) return null;
 
-  const phone = "27XXXXXXXXX"; // TODO
+  const phone = "27836870330"; // TODO
   const onSubmit = (e) => {
     e.preventDefault();
 
