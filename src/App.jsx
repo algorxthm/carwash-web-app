@@ -9,11 +9,13 @@ import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import LocationMap from "./components/LocationMap";
 import FloatingSocial from "./components/FloatingSocials";
+import SEOHead from "./components/SEOHead";
 
 
 export default function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
+      <SEOHead/>
       <Navbar />
       <main>
         <Hero3D />
@@ -26,7 +28,6 @@ export default function App() {
       </main>
       <FloatingSocial />
       <Footer />
-  
-  ]  </div>
+    </div>
   );
 }
