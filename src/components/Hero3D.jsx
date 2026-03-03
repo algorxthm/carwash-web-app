@@ -17,7 +17,7 @@ export default function Hero3D() {
         {/* LEFT: text */}
         <div className="z-10">
           <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">
-            ✨ 3D Experience • Fast Booking • Premium Finish
+            🧽 Interior + Exterior • Fast Booking • ⏱ 35–50 min 
           </p>
 
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight md:text-5xl">
