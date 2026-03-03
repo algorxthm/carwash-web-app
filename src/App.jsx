@@ -6,7 +6,6 @@ import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import WhatsAppFloat from "./components/WhatsAppFloat";
 import LocationMap from "./components/LocationMap";
 import FloatingSocial from "./components/FloatingSocials";
 import SEOHead from "./components/SEOHead";
