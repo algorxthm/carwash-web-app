@@ -15,7 +15,8 @@ const SEOHead = () => {
         name="keywords"
         content="Carwash, Midrand, Stop & Wash, Car cleaning, Trusted Carwash, Auto detailing Midrand"
       />
-
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      </meta>
       {/* Open Graph / Social Sharing */}
       <meta property="og:title" content="Stop & Wash Carwash – Midrand" />
       <meta
